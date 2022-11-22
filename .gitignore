@@ -1,0 +1,9 @@
+tiles/
+logs/
+bundler
+*cache
+/world*
+usercache.json
+banned-ips.json
+banned-players.json
+plugins/
