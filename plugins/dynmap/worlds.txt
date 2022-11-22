@@ -1,0 +1,8 @@
+worlds:
+  - name: world
+    title: "Overworld"
+    bigworld: true
+  - name: world_nether
+    title: "The Nether"
+  - name: world_the_end
+    title: "The End"

@@ -1,0 +1,27 @@
+version: 0.20
+templates:
+  nether-hd:
+    enabled: true
+    extrazoomout: 3
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: nethershadows
+        # Map background color (day or night)
+        background: "#300806"
+        mapzoomin: 5
+      - class: org.dynmap.hdmap.HDMap
+        name: nether
+        title: "Isometric"
+        prefix: nt
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: nethershadows
+        # Map background color (day or night)
+        background: "#300806"
+        mapzoomin: 3
+        boostzoom: 2

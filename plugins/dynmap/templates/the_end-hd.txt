@@ -1,0 +1,23 @@
+version: 0.20
+templates:
+  the_end-hd:
+    enabled: true
+    extrazoomout: 2
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: brightnight
+        mapzoomin: 5
+      - class: org.dynmap.hdmap.HDMap
+        name: the_end
+        title: "Isometric"
+        prefix: st
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: brightnight
+        mapzoomin: 3
+        boostzoom: 2
