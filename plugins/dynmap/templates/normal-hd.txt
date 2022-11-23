@@ -1,0 +1,33 @@
+version: 0.20
+templates:
+  normal-hd:
+    enabled: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: brightnightandday
+      - class: org.dynmap.hdmap.HDMap
+        name: isometric
+        title: "Isometric"
+        prefix: isometric
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: brightnightandday
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Topographic"
+        prefix: topographic
+        perspective: iso_SE_30_hires
+        shader: topo256-noplants
+        lighting: default
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Player Density"
+        prefix: density
+        perspective: iso_S_90_medres
+        shader: inhabited
+        lighting: default

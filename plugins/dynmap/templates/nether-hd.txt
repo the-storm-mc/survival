@@ -1,0 +1,21 @@
+version: 0.20
+templates:
+  nether-hd:
+    enabled: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: nethershadows
+        background: "#300806"
+      - class: org.dynmap.hdmap.HDMap
+        name: isometric
+        title: "Isometric"
+        prefix: isometric
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: nethershadows
+        background: "#300806"
