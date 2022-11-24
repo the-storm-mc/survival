@@ -7,13 +7,13 @@ templates:
         name: flat
         title: "Flat"
         prefix: flat
-        perspective: iso_S_90_hires
+        perspective: iso_S_90_medres
         shader: stdtexture
         lighting: brightnight
       - class: org.dynmap.hdmap.HDMap
         name: isometric
         title: "Isometric"
         prefix: isometric
-        perspective: iso_SE_30_hires
+        perspective: iso_SE_30_medres
         shader: stdtexture
         lighting: brightnight
