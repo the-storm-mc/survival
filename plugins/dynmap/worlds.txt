@@ -1,6 +1,8 @@
 worlds:
   - name: world
     title: "Overworld"
+  - name: world_amplified
+    title: "Amplified"
   - name: world_nether
     title: "The Nether"
   - name: world_the_end

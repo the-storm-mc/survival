@@ -1,5 +1,5 @@
 cfg-version: 12
-message: '&cYou have reached the edge of this world.'
+message: "&cYou have reached the edge of this world."
 round-border: false
 debug-mode: false
 whoosh-effect: true
@@ -21,21 +21,27 @@ prevent-block-place: false
 prevent-mob-spawn: false
 no-players-toggle: false
 worlds:
-  world:
-    x: 0.0
-    z: 0.0
-    radiusX: 7000
-    radiusZ: 7000
-    wrapping: false
-  world_nether:
-    x: 0.0
-    z: 0.0
-    radiusX: 3000
-    radiusZ: 3000
-    wrapping: false
-  world_the_end:
-    x: 0.0
-    z: 0.0
-    radiusX: 500
-    radiusZ: 500
-    wrapping: false
+    world:
+        x: 0.0
+        z: 0.0
+        radiusX: 7000
+        radiusZ: 7000
+        wrapping: false
+    world_amplified:
+        x: 0.0
+        z: 0.0
+        radiusX: 3000
+        radiusZ: 3000
+        wrapping: false
+    world_nether:
+        x: 0.0
+        z: 0.0
+        radiusX: 3000
+        radiusZ: 3000
+        wrapping: false
+    world_the_end:
+        x: 0.0
+        z: 0.0
+        radiusX: 500
+        radiusZ: 500
+        wrapping: false
