@@ -6,6 +6,7 @@ templates:
       - class: org.dynmap.hdmap.HDMap
         name: flat
         title: "Flat"
+        icon: "block_the_end_flat.png"
         prefix: flat
         perspective: iso_S_90_medres
         shader: stdtexture
@@ -13,6 +14,7 @@ templates:
       - class: org.dynmap.hdmap.HDMap
         name: isometric
         title: "Isometric"
+        icon: "block_the_end_surface.png"
         prefix: isometric
         perspective: iso_SE_30_medres
         shader: stdtexture
