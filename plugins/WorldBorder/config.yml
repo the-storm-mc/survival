@@ -4,12 +4,12 @@ round-border: false
 debug-mode: false
 whoosh-effect: true
 portal-redirection: true
-knock-back-dist: 3.0
+knock-back-dist: 7.0
 timer-delay-ticks: 5
 remount-delay-ticks: 0
 dynmap-border-enabled: true
-dynmap-border-layer-label: WorldBorder
-dynmap-border-message: The border of the world.
+dynmap-border-layer-label: Border
+dynmap-border-message: The edge of the world
 dynmap-border-hideByDefault: false
 dynmap-border-priority: 0
 player-killed-bad-spawn: false

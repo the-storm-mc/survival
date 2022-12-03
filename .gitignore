@@ -14,7 +14,8 @@ lib/
 /banned-ips.json
 /banned-players.json
 !/plugins/dynmap/templates
-!/plugins/dynmap/templates/normal-hd.txt
+!/plugins/dynmap/web/index.html
+!/plugins/dynmap/web/favicon.ico
 /plugins/dynmap/colorschemes
 /plugins/dynmap/lightings.txt
 /plugins/dynmap/perspectives.txt
