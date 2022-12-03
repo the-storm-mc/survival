@@ -6,7 +6,7 @@ templates:
       - class: org.dynmap.hdmap.HDMap
         name: flat
         title: "Flat"
-        icon: "block_world_flat.png"
+        icon: "images/block_world_flat.png"
         prefix: flat
         perspective: iso_S_90_medres
         shader: stdtexture
@@ -14,7 +14,7 @@ templates:
       - class: org.dynmap.hdmap.HDMap
         name: isometric
         title: "Isometric"
-        icon: "block_world_surface.png"
+        icon: "images/block_world_surface.png"
         prefix: isometric
         perspective: iso_SE_30_medres
         shader: stdtexture
@@ -22,7 +22,7 @@ templates:
       - class: org.dynmap.hdmap.HDMap
         name: topographic
         title: "Topographic"
-        icon: "block_world_cave.png"
+        icon: "images/block_world_cave.png"
         prefix: topographic
         perspective: iso_SE_30_medres
         shader: topo256-noplants
@@ -30,7 +30,7 @@ templates:
       - class: org.dynmap.hdmap.HDMap
         name: density
         title: "Player Density"
-        icon: "block_world_biome.png"
+        icon: "images/block_world_biome.png"
         prefix: density
         perspective: iso_S_90_medres
         shader: inhabited
