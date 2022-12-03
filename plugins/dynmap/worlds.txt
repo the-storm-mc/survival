@@ -1,10 +1,10 @@
 worlds:
   - name: world
     title: "Overworld"
-    extrazoomout: 3
+    extrazoomout: 4
   - name: world_amplified
     title: "Amplified"
-    extrazoomout: 2
+    extrazoomout: 3
   - name: world_nether
     title: "The Nether"
     extrazoomout: 2
