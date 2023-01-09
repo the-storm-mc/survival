@@ -10,3 +10,4 @@ worlds:
     extrazoomout: 2
   - name: world_the_end
     title: "The End"
+    extrazoomout: 1
